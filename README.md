@@ -13,3 +13,30 @@ Download Airbnb data for a city of your choice from [Inside Airbnb](http://insid
 You’ll primarily be working with the `listings.csv` file.
 
 ---
+
+## 🎯 Project tasks
+
+### ✅ 1. Data Loading and Initial Exploration
+- Load the dataset using Pandas.
+- Display basic information (`.info()`, `.describe()`, `.head()`).
+- Check for missing values, duplicated rows, and unusual data types.
+
+---
+
+### 🧹 2. Data Cleaning
+- Convert price fields (e.g., `"$2,100.00"`) to float.
+- Parse dates (e.g., `last_review`) into datetime objects.
+- Handle missing values in critical fields like `reviews_per_month`, `host_name`, and `neighbourhood_group`.
+- Remove or impute irrelevant rows (e.g., listings with zero availability or price).
+
+---
+
+### 🏗️ 3. Data Enrichment
+- Create a `price_per_person` column using `price` and `accommodates`.
+- Create a `is_superhost` flag from `host_is_superhost`.
+- Bucket availability into categories:
+  - **Full-time** (availability > 300)
+  - **Part-time** (100–300)
+  - **Rare** (<100)
+
+---
