@@ -40,3 +40,15 @@ You’ll primarily be working with the `listings.csv` file.
   - **Rare** (<100)
 
 ---
+
+### 4. Data Analysis Using Pandas
+Answer the following using Pandas:
+- What are the top 10 most expensive neighborhoods by average price?
+- What’s the average availability and price by room type?
+- Which host has the most listings?
+- How does average price vary across different boroughs or districts?
+- How many listings have never been reviewed?
+- Write a summary of 3–5 key insights you found through your analysis
+
+---
+
