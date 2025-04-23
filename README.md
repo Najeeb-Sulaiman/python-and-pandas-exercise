@@ -52,3 +52,11 @@ Answer the following using Pandas:
 
 ---
 
+
+## 📎 Submission Guidelines
+- Submit a clean, well-commented Jupyter notebook.
+- Break your code into clear sections (Cleaning, Data Enrichment, Analysis).
+- Include markdown cells to explain what you're doing and why.
+- Include problems you encountered and how you handled them.
+- 
+---
