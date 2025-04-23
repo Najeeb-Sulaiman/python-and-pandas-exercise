@@ -32,8 +32,7 @@ You’ll primarily be working with the `listings.csv` file.
 ---
 
 ### 3. Data Enrichment
-- Create a `price_per_person` column using `price` and `accommodates`.
-- Create a `is_superhost` flag from `host_is_superhost`.
+- Create a `price_per_booking` column using `price` and `minimum_nights`.
 - Bucket availability into categories:
   - **Full-time** (availability > 300)
   - **Part-time** (100–300)
